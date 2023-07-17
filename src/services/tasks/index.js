@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let apiUrl = "http://localhost:5000/";
+let apiUrl = "https://react-render-backend.onrender.com/";
 
 const getAllTasks = () => {
   return axios.get(apiUrl + "tasks");
